@@ -11,23 +11,35 @@ body {
 }
 
 #header-block {
-}
+  width: 100%;
+  margin: 20px 100px;
+  display: flex;
+  gap: 500px;
+  }
 
 .header {
   display: inline-block;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .logo {
   display: inline-block;
+  width: 238px;
+  height: 24px;
+  margin: 0px;
 }
 
 nav {
-  margin: 0px;
+  margin-right: 10px;
   display: inline-block;
 }
 
-.ul {
+ul {
   display: flex;
+  margin-right: 0px;
+  gap: 30px;
 }
 
 .top {
