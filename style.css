@@ -1,35 +1,58 @@
 body {
   margin: 0px;
-    }
+  position: relative;
+  width: 1440px;
+  height: 3044px;
+
+  background: #ffffff;
+}
 
 .container {
   margin: auto;
 }
 
 #header-block {
-  position: relative;
 }
 
 .header {
   display: inline-block;
-  }
+}
 
 .logo {
-    display: inline-block;
-    margin-left: 100px;
-    margin-top: 30px;
-    position: absolute;
-  }
+  display: inline-block;
+}
 
 nav {
-    display: inline-block;  
-    margin-right: 100px;
-    margin-top: 30px;
-    position: absolute;
-
-  }
+  margin: 0px;
+  display: inline-block;
+}
 
 .ul {
   display: flex;
-  
-   }
+}
+
+.top {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  width: 1241px;
+  height: 297px;
+  left: 100px;
+}
+
+.bg_shoes {
+  width: 100%;
+  height: auto;
+}
+
+.top h2 {
+  font-family: monospace;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
