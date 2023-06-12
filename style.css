@@ -1,6 +1,5 @@
 body {
   margin: 0px;
-  position: relative;
   width: 1440px;
   height: 3044px;
 
@@ -33,13 +32,8 @@ nav {
 
 .top {
   position: relative;
-}
-
-.center {
-  position: absolute;
-  width: 1241px;
-  height: 297px;
-  left: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .bg_shoes {
@@ -48,6 +42,9 @@ nav {
 }
 
 .top h2 {
+  position: absolute;
+  width: 1241px;
+  height: 297px;
   font-family: monospace;
   font-size: 56px;
   font-weight: 400;
@@ -55,4 +52,80 @@ nav {
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
+  color: black;
+}
+
+.abreast {
+  display: flex;
+}
+
+.abreast img {
+  width: 288px;
+  height: 288px;
+}
+
+.abreast p {
+  width: 815px;
+  height: 288px;
+  left: 420px;
+  top: 878px;
+  font-family: "Arial Narrow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.bottom {
+  position: relative;
+}
+
+.bg_dark {
+  width: 100%;
+  height: auto;
+}
+
+.bottom h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1030px;
+  height: 451px;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 78px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.abreast-bottom {
+  display: flex;
+}
+
+.abreast-bottom img {
+  width: 606px;
+  height: 608px;
+}
+
+.text strong {
+  font-family: "Arial Narrow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.text p {
+  font-family: "Arial Narrow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
 }
